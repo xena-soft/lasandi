@@ -1,0 +1,26 @@
+# IDE and tools files
+
+.idea
+.bundle
+.ruby-version
+.ruby-gemset
+.rvmrc
+.capistrano
+.sass-cache
+dump.rdb
+
+# config files
+
+/config/secrets.yml
+/config/dropbox.yml
+/config/mainsms.yml
+/config/database.yml
+/config/domain.yml
+/config/smtp.yml
+
+
+# Ignore all logfiles and tempfiles.
+!/log/.keep
+log/*
+tmp/**/*
+
