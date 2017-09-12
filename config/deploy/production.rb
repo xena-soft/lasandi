@@ -6,7 +6,7 @@
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
-# set :rvm1_ruby_version, '2.3.1'
+set :rvm_ruby_version, '2.3.0'
 set branch: 'master'
 
 set :bundle_binstubs, -> { shared_path.join('bin') }

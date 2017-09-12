@@ -34,3 +34,11 @@ ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+
+after 'deploy:publishing', 'deploy:restart'
+
+namespace :deploy do
+  task :restart do
+    invoke 'puma:restart'
+  end
+end
