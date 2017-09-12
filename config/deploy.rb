@@ -3,7 +3,7 @@ lock '3.9.1'
 
 set :repo_url,    'git@github.com:xena-soft/lasandi.git'
 set :application, 'lasandi'
-set :user,        'deployer'
+set :user,        'deploy'
 set :puma_threads, [4, 16]
 set :puma_workers, 0
 
