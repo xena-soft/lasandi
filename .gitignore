@@ -10,10 +10,10 @@
 dump.rdb
 
 # config files
-
+/config/database.yml
+/config/secrets.yml
 /config/dropbox.yml
 /config/mainsms.yml
-
 /config/domain.yml
 /config/smtp.yml
 
